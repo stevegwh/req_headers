@@ -2,7 +2,7 @@ var express = require('express');
 
 var app = express();
 
-app.get('/:time?', function(req, res) {
+app.get('/', function(req, res) {
   function toCap(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
   }
