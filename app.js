@@ -24,4 +24,4 @@ app.get('/', function(req, res) {
   res.send(dataObj);
 })
 
-app.listen(process.env.PORT || <default port>);
+app.listen(process.env.PORT);
